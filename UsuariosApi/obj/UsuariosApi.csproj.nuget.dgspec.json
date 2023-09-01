@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\www\\UsuariosApi\\UsuariosApi\\UsuariosApi.csproj": {}
+    "C:\\www\\ApiIdentity\\UsuariosApi\\UsuariosApi.csproj": {}
   },
   "projects": {
-    "C:\\www\\UsuariosApi\\UsuariosApi\\UsuariosApi.csproj": {
+    "C:\\www\\ApiIdentity\\UsuariosApi\\UsuariosApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\www\\UsuariosApi\\UsuariosApi\\UsuariosApi.csproj",
+        "projectUniqueName": "C:\\www\\ApiIdentity\\UsuariosApi\\UsuariosApi.csproj",
         "projectName": "UsuariosApi",
-        "projectPath": "C:\\www\\UsuariosApi\\UsuariosApi\\UsuariosApi.csproj",
+        "projectPath": "C:\\www\\ApiIdentity\\UsuariosApi\\UsuariosApi.csproj",
         "packagesPath": "C:\\Users\\02520013206\\.nuget\\packages\\",
-        "outputPath": "C:\\www\\UsuariosApi\\UsuariosApi\\obj\\",
+        "outputPath": "C:\\www\\ApiIdentity\\UsuariosApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\02520013206\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.21, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",

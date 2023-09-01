@@ -7,7 +7,7 @@ namespace UsuariosApi.Auth
     {
         protected override Task HandleRequirementAsync(AuthorizationHandlerContext context, IdadeMinima requirement)
         {
-            var dataNascimentoClaim = context.User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.DateOfBirth);
+            var dataNascimentoClaim = context.User.FindFirst(claim => claim.Type == ClaimTypes.DateOfBirth);
 
             if(dataNascimentoClaim is null) return Task.CompletedTask;
 
